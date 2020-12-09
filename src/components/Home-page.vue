@@ -62,7 +62,7 @@ export default {
     margin-left: 150px;
 }
 .btn-div{
-    margin-left: 120px;
+    margin-left: 150px;
 }
 .btn{
     margin-left: 20px;
