@@ -31,7 +31,7 @@ export default {
 .main-search {
     width: 38%;
     margin: 10% auto;
-    
+    margin-left:24%;
 }
 
 .search .form-control {
@@ -79,7 +79,7 @@ export default {
  padding:30px;
 }
 .btn-text:hover{
-    color: rgb(170, 160, 160);
+  color: rgb(170, 160, 160);
 }
 .nav-text{
   margin:0.5rem;
