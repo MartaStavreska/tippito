@@ -1,17 +1,24 @@
 <template>
 <div>
 <HomeHeader />
-<div class="main-search">
- <img src="../../logotext.png" id="logo-img" alt="">
-  <div class="form-group search">
-     <span class="fa fa-search form-control-feedback"></span>
-     <input id="search-input" type="text" class="form-control" placeholder="Search">
-     <div class="btn-div">
-      <button class="btn"> <span class="btn-text">Search</span> </button>
-      <button class="btn"> <span class="btn-text">Daily Luck</span> </button>
-     </div>
-  
-  </div>
+<div class="main-search text-center">
+    <img src="../../logotext.png" class="logo-img" alt="">
+    <div class="row">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-6 offset-3">
+                    <div class="input-group mb-3">
+                        <span class="input-group-text search-icon" id="basic-addon1"><i class="fa fa-search"></i></span>
+                        <input id="search-input" type="text" class="form-control" placeholder="Search">
+                    </div>
+                    <div class="text-center">
+                        <button class="btn"> <span class="btn-text">Search</span> </button>
+                        <button class="btn"> <span class="btn-text">Daily Luck</span> </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 <Footer />
 
@@ -28,15 +35,27 @@ export default {
 }
 </script>
 <style scoped>
-.main-search {
-    width: 38%;
-    margin: 10% auto;
-    margin-left:24%;
+.row {width:100%;}
+.main-search{
+    padding-top:10%;
 }
-
-.search .form-control {
-    padding-left: 2rem;
-    
+.logo-img {
+    width:300px;
+    margin-bottom:10px;
+}
+#search-input{
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    border-left:0;
+}
+.search-icon {
+    border-radius:0;
+    background: transparent;
+    border-right:0;
+    border-top-left-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+    color:rgb(205, 213, 230);
+    border-color:#ced4da;
 }
 
 .search .form-control-feedback {
@@ -50,23 +69,8 @@ export default {
     pointer-events: none;
     color: #aaa;
 }
-#search-input{
-    border-radius: 3rem;
-    width: 700px;
-    
-   
-}
-#logo-img{
-    width:23rem;
-    margin-bottom: 1rem;
-    margin-left: 150px;
-}
-.btn-div{
-    margin-left: 150px;
-}
 .btn{
     margin-left: 20px;
-    margin-top:2rem;
     background-color: rgb(205, 213, 230);
     color:gray;
     height: 2rem;
@@ -84,22 +88,5 @@ export default {
 .nav-text{
   margin:0.5rem;
 }
-@media only screen and (max-width: 600px) {
-    #search-input{
-    width: 400px;
-    }
-  #logo-img {
-    width:10rem;
-    margin-left:120px;
-  }
-  .btn{
-      margin:20px 0 5px 10px;
-      width:7rem;
 
-  }
-  .btn-text{
-    padding:5px;
-}
-
-}
 </style>
