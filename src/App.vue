@@ -1,5 +1,9 @@
 <template>
- <Home/>
+<div>
+  <router-view></router-view>
+
+</div>
+<!-- <Home/> -->
  <!-- <SearchPage/> -->
  <!-- <InfoPage/> -->
 

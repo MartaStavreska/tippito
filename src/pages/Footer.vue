@@ -42,9 +42,6 @@ footer {
     position:fixed;
     bottom: 0px;
     width: 100%;
-    margin-top:7%;
 }
-.right{
-  margin-left: 800px;
-}
+
 </style>

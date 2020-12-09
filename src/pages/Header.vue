@@ -1,18 +1,16 @@
 <template>
-    <nav class="navbar navbar-expand-lg navbar-light ">
+<div class="main">
+<nav class="navbar navbar-expand-lg navbar-light ">
 <a class="navbar-brand" href="#">
     <img src="../../logotext.png" width="90" height="30" alt="">
   </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">       
+     <div class="row mt-4">       
             <div class="form-group search">
             <span class="fa fa-search form-control-search"></span>           
             <span class="fa fa-times form-control-x">|</span>
             <input id="search-input" type="text" class="form-control" placeholder="Search">  
-           </div>   
-            <ul class="navbar-nav mr-sm-2">
+           </div>
+            <ul class="navbar-nav">
             <li class="nav-item active">
                 <a class="nav-link" href="#">Tippito</a>
             </li>
@@ -22,37 +20,22 @@
                 <li class="nav-item">
                 <a class="nav-link" href="#">Login</a>
             </li>
-            </ul>
-  </div>
+            </ul>    
+    </div>
+  
 </nav>
-
-<div id="span-div">
-    <span class="spans"> <a href=""> All</a></span>
-    <span class="spans"> <a href=""> Tips</a></span>
-    <span class="spans"> <a href=""> Games</a></span>
-    <span class="spans"> <a href=""> Squad</a></span>
+<div class="offset-1">
+    <strong>
+    <span class="m-2"> <a class="text-decoration-none text-dark" href=""> All</a></span>
+    <span class="m-2"> <a class="text-decoration-none text-dark" href=""> Tips</a></span>
+    <span class="m-2"> <a class="text-decoration-none text-dark" href=""> Games</a></span>
+    <span class="m-2"> <a class="text-decoration-none text-dark"  href=""> Squad</a></span>
+   </strong>
 </div>
 <hr>
+</div>
 </template>
 <style scoped>
-.spans a{
-    margin-left:20px;
-    font-size: 14px;
-    text-decoration: none;
-    color: gray;
-}
-.spans a:hover{
-    color:black;
-}
-#span-div{
-    margin-left: 100px;
-}
-.search{
-   margin-right: 35%;
-}
-.search .form-control {
-    padding-left: 2rem;  
-}
 
 .search .form-control-search {
     position: absolute;
@@ -65,7 +48,7 @@
     text-align: center;
     pointer-events: none;
     color: #aaa;
-     margin-top: 45px;
+    margin-top: -5px;
     
 }
 .search .form-control-x{
@@ -79,14 +62,30 @@
     text-align: center;
     pointer-events: none;
     color: #aaa;
-    margin-top: 45px;
+    margin-top: -5px;
 }
 #search-input{
     border-radius: 3rem;
     width: 550px;
     height:30px;
-    margin-top: 50px;
-    margin-bottom: 30px;
+    margin-right: 450px;
+    
    
 }
+@media only screen and (max-width: 600px) {
+  #search-input {
+    max-width: 160px;
+    margin-right: 200px;
+    margin-top:35px;
+    margin-right: 200px;
+  }
+ .main{
+    max-width: 550px;
+ }
+ .search .form-control-x , .search .form-control-search {
+   display: none;
+ }
+
+}
+
 </style>

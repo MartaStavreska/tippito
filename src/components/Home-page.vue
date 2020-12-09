@@ -2,18 +2,18 @@
 <div>
 <HomeHeader />
 <div class="main-search text-center">
-    <img src="../../logotext.png" class="logo-img" alt="">
+    <img src="../../logotext.png" class="logo-img mr-5 col-md-3" alt="">
     <div class="row">
         <div class="container text-center">
             <div class="row">
                 <div class="col-6 offset-3">
-                    <div class="input-group mb-3">
+                    <div class="search input-group mb-3">
                         <span class="input-group-text search-icon" id="basic-addon1"><i class="fa fa-search"></i></span>
                         <input id="search-input" type="text" class="form-control" placeholder="Search">
                     </div>
                     <div class="text-center">
-                        <button class="btn"> <span class="btn-text">Search</span> </button>
-                        <button class="btn"> <span class="btn-text">Daily Luck</span> </button>
+                        <button class="btn btn-info mr-2 btn"> <span class="btn-text">Search</span> </button>
+                        <button class="btn btn-info mr-2 btn"> <span class="btn-text">Daily Luck</span> </button>
                     </div>
                 </div>
             </div>
@@ -39,10 +39,7 @@ export default {
 .main-search{
     padding-top:10%;
 }
-.logo-img {
-    width:300px;
-    margin-bottom:10px;
-}
+
 #search-input{
     border-top-right-radius: 3rem;
     border-bottom-right-radius: 3rem;
@@ -69,24 +66,25 @@ export default {
     pointer-events: none;
     color: #aaa;
 }
-.btn{
-    margin-left: 20px;
-    background-color: rgb(205, 213, 230);
-    color:gray;
-    height: 2rem;
-    width:10rem;
-    height: 40px;
+@media only screen and (max-width: 600px) {
+  img {
+    max-width: 200px;
+    margin-right: 60px;
+    margin-bottom:10px;
+  }
+  .main-search{
+      margin-top: 20%;
+  }
+  #search-input{
+      height:30px;
+  }
+  .btn{
+      width: 60px;
+      height: 30px;
+      padding: 0;
+      font-size: 12px;
+  }
   
-    
-}
-.btn-text{
- padding:30px;
-}
-.btn-text:hover{
-  color: rgb(170, 160, 160);
-}
-.nav-text{
-  margin:0.5rem;
 }
 
 </style>
