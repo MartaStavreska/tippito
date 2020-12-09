@@ -83,7 +83,7 @@
 
     </div>
     <div class="right-side col-md-6">
-      <div class="card rounded ">
+      <div class="card ">
         <div class="card-body">
             <img src="../../bayern.png" alt="">
             
@@ -128,3 +128,12 @@ export default {
     }
 }
 </script>
+<style  scoped>
+.card{
+  border-radius:2rem;
+}
+.btn{
+   border-radius:10px;
+   background: white;
+}
+</style>

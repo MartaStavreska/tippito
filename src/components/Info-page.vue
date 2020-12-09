@@ -46,8 +46,8 @@
       </div>
 
     </div>
-    <div class="right-side col-md-5">
-      <div class="card rounded">
+    <div class="right-side col-md-6">
+      <div class="card">
         <div class="card-body">
             <h5 class="card-title text-info">(FCB)-FC Bayer Munchen</h5>
             <p class="text-secondary">
@@ -63,10 +63,10 @@
         </div>
         <br>
         <div class="m-2 text-secondary">
-           <p class="m-0">Predict and WIN with Tippito</p> 
+           <p class="m-0"><strong> Predict and WIN with Tippito</strong></p> 
            <p class="m-0">Join now</p>
-            <button class="btn btn-light border border-secondary mr-3 ">Downoald IOS</button>
-            <button class="btn btn-light border border-secondary">Downoald Android</button>
+            <button class="btn btn-light border border-secondary mr-3 p-2 ">Downoald IOS</button>
+            <button class="btn btn-light border border-secondary p-2">Downoald Android</button>
            <p class="mt-2">know more about Tippito Vip</p>
         </div>
        
@@ -86,3 +86,12 @@ export default {
     }
 }
 </script>
+<style scoped>
+.card{
+  border-radius:2rem;
+}
+.btn{
+   border-radius:10px;
+   background: white;
+}
+</style>
