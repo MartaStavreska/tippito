@@ -4,39 +4,39 @@
  <div class="main d-flex  offset-1">
    <div class="left-side col-md-5">
       <div>
-          <h3 class="text-info">FC Bayern Minchen (Games)</h3>
+          <h3 class="text-info">FC Bayern Munchen (Games)</h3>
           <p class="text-muted"><small>Published on 28.10.2020 13:10</small></p>
           <p class="m-0">
             <small>
-              League game against Atletico Madrid ended 4:0 for Bayern Minchen
+              League game against Atletico Madrid ended 4:0 for Bayern Munchen
             <br>
             game referee was BLA BLA BLA and scores was Mueller...
             </small> 
           </p>
            <p class="m-0">
             <small>
-              League game against Atletico Madrid ended 4:0 for Bayern Minchen
+              League game against Atletico Madrid ended 4:0 for Bayern Munchen
             <br>
             game referee was BLA BLA BLA and scores was Mueller...
             </small> 
           </p>
            <p class="m-0">
             <small>
-              League game against Atletico Madrid ended 4:0 for Bayern Minchen
+              League game against Atletico Madrid ended 4:0 for Bayern Munchen
             <br>
             game referee was BLA BLA BLA and scores was Mueller...
             </small> 
           </p>
            <p class="m-0">
             <small>
-              League game against Atletico Madrid ended 4:0 for Bayern Minchen
+              League game against Atletico Madrid ended 4:0 for Bayern Munchen
             <br>
             game referee was BLA BLA BLA and scores was Mueller...
             </small> 
           </p>
            <p class="m-0">
             <small>
-              League game against Atletico Madrid ended 4:0 for Bayern Minchen
+              League game against Atletico Madrid ended 4:0 for Bayern Munchen
             <br>
             game referee was BLA BLA BLA and scores was Mueller...
             </small> 

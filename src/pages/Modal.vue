@@ -11,7 +11,7 @@
         </button>
       </div>
       <div class="modal-body text-center">
-        <h5 class="text-info">Locomotiva-Moscow - FC Bayern Minchen (Tip)</h5>
+        <h5 class="text-info">Locomotiva-Moscow - FC Bayern Munchen (Tip)</h5>
         <p class="score" style="font-size:30px"><strong> 2 / 2 & 3 +</strong></p>
         <p class="text-secondary"><small>Published on  <br/> 28.10.2020 13:10</small></p>
         <p class="text-secondary"> <strong> WIN/LOSE

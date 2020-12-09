@@ -5,7 +5,7 @@
    <div class="left-side col-md-5 offset-1">
       <div>
           <a href="#" data-toggle="modal" data-target="#exampleModal">
-              <h4 class="text-info" >Locomotiva-Moscow - FC Bayern Minchen (Tip)</h4>
+              <h4 class="text-info" >Locomotiva-Moscow - FC Bayern Munchen (Tip)</h4>
             </a>
            
           <p class="m-0"><small>Latest public prediction given from Tippito user Full Name</small> </p>
@@ -15,11 +15,11 @@
       <br>
        <div>
          <a href="#" data-toggle="modal" data-target="#exampleModal">
-          <h4 class="text-info">FC Bayern Minchen (Squad)</h4>
+          <h4 class="text-info">FC Bayern Munchen (Squad)</h4>
           </a>
           <p class="m-0">
               <small>
-                  Latest Bayern Minchen Transfer Diego Costa,
+                  Latest Bayern Munchen Transfer Diego Costa,
                  <br/>
                  Transfered from FC Juventus  on 28.09.2019
               </small> 
@@ -29,10 +29,10 @@
       <br> <br>
        <div>
           <a href="#" data-toggle="modal" data-target="#exampleModal">
-          <h4 class="text-info">FC Bayern Minchen (Games)</h4></a>
+          <h4 class="text-info">FC Bayern Munchen (Games)</h4></a>
           <p class="m-0">
               <small>
-                Champions league game against Atletico Madrid ended 4:0 for Bayern Minchen,
+                Champions league game against Atletico Madrid ended 4:0 for Bayern Munchen,
                 <br/>
                 game reference was...      
               </small> 
@@ -42,7 +42,7 @@
       <br><br>
        <div>
           <a href="#" data-toggle="modal" data-target="#exampleModal">
-              <h4 class="text-info" >Locomotiva-Moscow - FC Bayern Minchen (Tip)</h4>
+              <h4 class="text-info" >Locomotiva-Moscow - FC Bayern Munchen (Tip)</h4>
             </a>
            
           <p class="m-0"><small>Latest public prediction given from Tippito user Full Name</small> </p>
@@ -52,11 +52,11 @@
       <br>
        <div>
          <a href="#" data-toggle="modal" data-target="#exampleModal">
-          <h4 class="text-info">FC Bayern Minchen (Squad)</h4>
+          <h4 class="text-info">FC Bayern Munchen (Squad)</h4>
           </a>
           <p class="m-0">
               <small>
-                  Latest Bayern Minchen Transfer Diego Costa,
+                  Latest Bayern Munchen Transfer Diego Costa,
                  <br/>
                  Transfered from FC Juventus  on 28.09.2019
               </small> 
@@ -66,10 +66,10 @@
       <br> <br>
        <div>
           <a href="#" data-toggle="modal" data-target="#exampleModal">
-          <h4 class="text-info">FC Bayern Minchen (Games)</h4></a>
+          <h4 class="text-info">FC Bayern Munchen (Games)</h4></a>
           <p class="m-0">
               <small>
-                Champions league game against Atletico Madrid ended 4:0 for Bayern Minchen,
+                Champions league game against Atletico Madrid ended 4:0 for Bayern Munchen,
                 <br/>
                 game reference was...      
               </small> 
