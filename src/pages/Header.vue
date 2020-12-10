@@ -4,7 +4,10 @@
 <a class="navbar-brand" href="#">
     <img src="../../logotext.png" width="90" height="30" alt="">
   </a>
-     <div class="row mt-4">       
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+     <div class="collapse navbar-collapse" id="navbarSupportedContent1">       
             <div class="form-group search">
             <span class="fa fa-search form-control-search"></span>           
             <span class="fa fa-times form-control-x">|</span>
@@ -48,7 +51,7 @@
     text-align: center;
     pointer-events: none;
     color: #aaa;
-    margin-top: -5px;
+    margin-top: 15px;
     
 }
 .search .form-control-x{
@@ -62,29 +65,26 @@
     text-align: center;
     pointer-events: none;
     color: #aaa;
-    margin-top: -5px;
+    margin-top: 15px;
 }
 #search-input{
     border-radius: 3rem;
     width: 550px;
     height:30px;
     margin-right: 450px;
+    margin-top: 20px;
     
    
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
   #search-input {
-    max-width: 160px;
-    margin-right: 200px;
-    margin-top:35px;
-    margin-right: 200px;
+    
+    max-width: 400px;
   }
- .main{
-    max-width: 550px;
- }
- .search .form-control-x , .search .form-control-search {
-   display: none;
- }
+  .search .form-control-x, .search .form-control-search {
+     display: none;
+  }
+
 
 }
 
