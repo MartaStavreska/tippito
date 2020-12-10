@@ -70,7 +70,7 @@ export default {
     width: 150px;
     background-color:  rgb(227, 232, 236);
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   img {
     max-width: 200px;
     margin-right: 60px;
@@ -84,7 +84,7 @@ export default {
   }
   .btn{
       width: 60px;
-      height: 30px;
+      height: 40px;
       padding: 0;
       font-size: 12px;
   }
