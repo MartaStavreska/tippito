@@ -6,7 +6,6 @@
     <span class="nav-text"><a href="">Tippito</a> </span>
     <span class="nav-text"><a href="">Tippito Vip</a> </span>
     <span class="nav-text"><a href="">Login</a> </span>
-  
   </div> 
 </nav>
 

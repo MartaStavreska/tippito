@@ -1,37 +1,33 @@
 <template>
-    <nav class="navbar navbar-expand-lg navbar-light ">
-<a class="navbar-brand" href="#">
-    <img src="../../logotext.png" width="90" height="30" alt="">
-  </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">       
-            <div class="form-group search">
-            <span class="fa fa-search form-control-search"></span>           
-            <span class="fa fa-times form-control-x">|</span>
-            <input id="search-input" type="text" class="form-control" placeholder="Search">  
-           </div>   
-            <ul class="navbar-nav mr-sm-2">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Tippito</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Tippito Vip</a>
-            </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#">Login</a>
-            </li>
-            </ul>
-  </div>
-</nav>
+    <div class="row p10">
+        <div class="col-1">
+            <a class="navbar-brand" href="/">
+                <img src="../../logotext.png" alt="Tippito Logo" style="width:100%;">
+            </a>
+        </div>
+        <div class="col-5 p5">
+            <div class="input-group mb-3">
+                <input id="search-input" type="text" class="form-control" placeholder="Search" aria-describedby="basic-addon2">
+                <span class="input-group-text search-icon" id="basic-addon1">
+                    <i class="fa fa-times ml10 mr10"></i> | <i class="fa fa-search ml10 mr10"></i>
+                </span>
+            </div>
+        </div>
+        <div class="col-6 text-right p5">
+            <span class="nav-text"><a href="">Tippito</a> </span>
+            <span class="nav-text"><a href="">Tippito Vip</a> </span>
+            <span class="nav-text"><a href="">Login</a> </span>
+        </div>
+    </div>
 
-<div id="span-div">
-    <span class="spans"> <a href=""> All</a></span>
-    <span class="spans"> <a href=""> Tips</a></span>
-    <span class="spans"> <a href=""> Games</a></span>
-    <span class="spans"> <a href=""> Squad</a></span>
-</div>
+    <div class="row">
+        <div class="col-5 offset-1">
+            <span class="spans active"> <a href=""> All</a></span>
+            <span class="spans"> <a href=""> Tips</a></span>
+            <span class="spans"> <a href=""> Games</a></span>
+            <span class="spans"> <a href=""> Squad</a></span>
+        </div>
+    </div>
 <hr>
 </template>
 <style scoped>
@@ -44,49 +40,20 @@
 .spans a:hover{
     color:black;
 }
-#span-div{
-    margin-left: 100px;
+#search-input{
+    border-top-left-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+    padding-left:10px;
+    border-right:0;
 }
-.search{
-   margin-right: 35%;
-}
-.search .form-control {
-    padding-left: 2rem;  
+.search-icon {
+    border-radius:0;
+    background: transparent;
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    color:rgb(120, 123, 129);
+    border-color:#ced4da;
+    border-left:0;
 }
 
-.search .form-control-search {
-    position: absolute;
-    margin-left: 500px;
-    z-index: 2;
-    display: block;
-    width: 2.3rem;
-    height: 2.3rem;
-    line-height: 2.3rem;
-    text-align: center;
-    pointer-events: none;
-    color: #aaa;
-     margin-top: 45px;
-    
-}
-.search .form-control-x{
-    position: absolute;
-    margin-left: 485px; 
-    z-index: 2;
-    display: block;
-    width: 2.3rem;
-    height: 2.3rem;
-    line-height: 2.3rem;
-    text-align: center;
-    pointer-events: none;
-    color: #aaa;
-    margin-top: 45px;
-}
-#search-input{
-    border-radius: 3rem;
-    width: 550px;
-    height:30px;
-    margin-top: 50px;
-    margin-bottom: 30px;
-   
-}
 </style>

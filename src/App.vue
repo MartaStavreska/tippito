@@ -1,6 +1,6 @@
 <template>
- <Home/>
- <!-- <SearchPage/> -->
+ <!-- <Home/> -->
+ <SearchPage/>
  <!-- <InfoPage/> -->
 
 </template>
