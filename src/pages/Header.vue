@@ -2,14 +2,14 @@
 <div class="main">
 <nav class="navbar navbar-expand-lg navbar-light">
   <a class="navbar-brand" href="#">
-    <img src="../../logotext.png" width="70" height="30" alt="logo" >
+    <img src="../../logotext.png" width="65" height="26" alt="logo" >
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
    <div class="collapse navbar-collapse" id="navbarSupportedContent1">         
       <div class="input-group col-md-5">
-            <input class="radius search form-control border-right-0 border font-size-10" type="text" style="padding:12px"  value="Bayern Munchen">
+            <input class="radius search form-control border-right-0 border font-size-10 pt-1 pb-1" type="text"  value="Bayern Munchen">
             <span class="input-group-append">
                 <div class="radius  div-icons  input-group-text bg-transparent">
                     <img src="../../download.png" height="11"  alt="">
