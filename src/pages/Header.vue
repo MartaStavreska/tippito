@@ -12,9 +12,9 @@
             <input class="radius search form-control border-right-0 border font-size-10" type="text" style="padding:12px"  value="Bayern Munchen">
             <span class="input-group-append">
                 <div class="radius  div-icons  input-group-text bg-transparent">
-                    <i class="fa fa-times icons"></i>
+                    <img src="../../download.png" height="11"  alt="">
                     <span class="ml-1 mt-1 mr-1 icons">|</span>
-                    <i class="fa fa-search icons"></i>   
+                    <img src="../../search.png" height="15"  alt="">   
                       <i data-feather="circle"></i>  
                 </div>
             </span>
