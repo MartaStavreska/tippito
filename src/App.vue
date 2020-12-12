@@ -1,12 +1,7 @@
 <template>
 <div>
   <router-view></router-view>
-
 </div>
-<!-- <Home/> -->
- <!-- <SearchPage/> -->
- <!-- <InfoPage/> -->
-
 </template>
 
 <script>
