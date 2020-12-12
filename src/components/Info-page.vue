@@ -1,75 +1,71 @@
 <template>
 <div>
   <Header/>
- <div class="main d-flex  offset-1">
-   <div class="left-side col-md-5">
+ <div class="main d-flex d-flex offset-1 ">
+   <div class="left-side">
       <div>
-          <h3 class="text-info">FC Bayern Munchen (Games)</h3>
-          <p class="text-muted"><small>Published on 28.10.2020 13:10</small></p>
-          <p class="m-0">
+          <h5 class="blue-color">FC Bayern Munchen (Games)</h5>
+          <p class="text-muted font-size-12 m-0"><small>Updated on 28.10.2020 13:10</small></p>
+          <p class="m-0 font-size-12" >
+            <small>
+            League game against Atletico Madrid ended 4:0 for Bayern Munchen <br>
+            game referee was BLA BLA BLA and scores was Mueller...
+            </small> 
+          </p>
+           <p class="m-0 font-size-12">
             <small>
               League game against Atletico Madrid ended 4:0 for Bayern Munchen
             <br>
             game referee was BLA BLA BLA and scores was Mueller...
             </small> 
           </p>
-           <p class="m-0">
+           <p class="m-0 font-size-12">
             <small>
               League game against Atletico Madrid ended 4:0 for Bayern Munchen
             <br>
             game referee was BLA BLA BLA and scores was Mueller...
             </small> 
           </p>
-           <p class="m-0">
+           <p class="m-0 font-size-12">
             <small>
               League game against Atletico Madrid ended 4:0 for Bayern Munchen
             <br>
             game referee was BLA BLA BLA and scores was Mueller...
             </small> 
           </p>
-           <p class="m-0">
+           <p class="m-0 font-size-12">
             <small>
               League game against Atletico Madrid ended 4:0 for Bayern Munchen
             <br>
             game referee was BLA BLA BLA and scores was Mueller...
             </small> 
           </p>
-           <p class="m-0">
-            <small>
-              League game against Atletico Madrid ended 4:0 for Bayern Munchen
-            <br>
-            game referee was BLA BLA BLA and scores was Mueller...
-            </small> 
-          </p>
-         
-             
       </div>
 
     </div>
-    <div class="right-side col-md-6">
-      <div class="card">
-        <div class="card-body">
-            <h5 class="card-title text-info">(FCB)-FC Bayer Munchen</h5>
-            <p class="text-secondary">
-              <strong>
-                Found on 1889<br>
+     <div class="right-side offset-1 col-md-7">
+       <div class="offset-1">
+      <div class="card h-3">
+        <div class="card-body">         
+            <h6 class="card-title blue-color">(FCB)-FC Bayer Munchen</h6>
+            <p class="text-secondary m-0 font-weight-bold font-size-13" >  
+                Founded on 1889<br>
                 Germany<br> 
                 Addres & City <br>
                 Club Stadium, Club Surface, Club Capacity <br>
                 Club City
-                </strong>
             </p>
         </div>
         </div>
-        <br>
-        <div class="m-2 text-secondary">
-           <p class="m-0"><strong> Predict and WIN with Tippito</strong></p> 
-           <p class="m-0">Join now</p>
-            <button class="btn btn-light border border-secondary mr-3 p-2 ">Downoald IOS</button>
-            <button class="btn btn-light border border-secondary p-2">Downoald Android</button>
-           <p class="mt-2">know more about Tippito Vip</p>
+        
+        <div class="m-2 ml-4 text-secondary">
+           <p class="m-0 font-weight-bold "><small><strong>Predict and WIN with Tippito</strong> </small> </p> 
+           <p class="m-0 font-size-10">Join now</p>
+            <button class="btn btn-light border border-secondary mr-3 p-2 btn1 font-size-13">Downoald iOS</button>
+            <button class="btn btn-light border border-secondary p-2 font-size-13">Downoald Android</button>
+           <p class="mt-2 font-size-10">know more about Tippito Vip </p>
         </div>
-       
+       </div>
     </div>
 </div>
   <Footer/>
@@ -88,10 +84,17 @@ export default {
 </script>
 <style scoped>
 .card{
-  border-radius:2rem;
+  border-radius:1rem;
 }
 .btn{
-   border-radius:10px;
+   border-radius:0.8rem;
    background: white;
+   height: 47px; 
+}
+.btn1{
+  width: 150px;
+}
+.right-side{
+  margin-top: -10px;
 }
 </style>

@@ -5,16 +5,17 @@
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLabel"></h5>
-        <span class="text-secondary">Full Name</span>
+        <span class="text-secondary font-size-14">Full Name</span>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
+      <br>
       <div class="modal-body text-center">
-        <h5 class="text-info">Locomotiva-Moscow - FC Bayern Munchen (Tip)</h5>
-        <p class="score" style="font-size:30px"><strong> 2 / 2 & 3 +</strong></p>
-        <p class="text-secondary"><small>Published on  <br/> 28.10.2020 13:10</small></p>
-        <p class="text-secondary"> <strong> WIN/LOSE
+        <h6 class="blue-color font-weight-bold">Locomotiva-Moscow - FC Bayern Munchen (Tip)</h6>
+        <p class="score" style="font-size:29px"><strong> 2 / 2 & 3 +</strong></p>
+        <p class="text-secondary font-size-10">Published on  <br/> 28.10.2020 13:10</p>
+        <p class="text-secondary"> <strong class="font-size-12"> WIN/LOSE
         <br>RESULT</strong> 
         </p>
               
@@ -23,4 +24,8 @@
 </div>
 </div> 
 </template>
-
+<style>
+.modal{
+  padding-top:10%;
+}
+</style>

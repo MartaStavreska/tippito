@@ -1,19 +1,25 @@
 <template>
 <div class="main">
-<nav class="navbar navbar-expand-lg navbar-light ">
-<a class="navbar-brand" href="#">
-    <img src="../../logotext.png" width="90" height="30" alt="">
+<nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand" href="#">
+    <img src="../../logotext.png" width="70" height="30" alt="logo" >
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-     <div class="collapse navbar-collapse" id="navbarSupportedContent1">       
-            <div class="form-group search">
-            <span class="fa fa-search form-control-search"></span>           
-            <span class="fa fa-times form-control-x">|</span>
-            <input id="search-input" type="text" class="form-control" placeholder="Search">  
-           </div>
-            <ul class="navbar-nav">
+   <div class="collapse navbar-collapse" id="navbarSupportedContent1">         
+      <div class="input-group col-md-5">
+            <input class="radius search form-control border-right-0 border font-size-10" type="text" style="padding:12px"  value="Bayern Munchen">
+            <span class="input-group-append">
+                <div class="radius  div-icons  input-group-text bg-transparent">
+                    <i class="fa fa-times icons"></i>
+                    <span class="ml-1 mt-1 mr-1 icons">|</span>
+                    <i class="fa fa-search icons"></i>   
+                      <i data-feather="circle"></i>  
+                </div>
+            </span>
+        </div>
+    <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
                 <a class="nav-link" href="#">Tippito</a>
             </li>
@@ -22,70 +28,37 @@
             </li>
                 <li class="nav-item">
                 <a class="nav-link" href="#">Login</a>
-            </li>
-            </ul>    
-    </div>
-  
+            </li>          
+    </ul>
+    
+  </div>
 </nav>
 <div class="offset-1">
-    <strong>
-    <span class="m-2"> <a class="text-decoration-none text-dark" href=""> All</a></span>
-    <span class="m-2"> <a class="text-decoration-none text-dark" href=""> Tips</a></span>
-    <span class="m-2"> <a class="text-decoration-none text-dark" href=""> Games</a></span>
-    <span class="m-2"> <a class="text-decoration-none text-dark"  href=""> Squad</a></span>
-   </strong>
+    <small >
+        <span> <a class="text-decoration-none text-dark font-weight-bolder font-size-10 " href=""> All</a></span>
+        <span class="ml-3"> <a class="text-decoration-none text-secondary font-size-10 " href=""> Tips</a></span>
+        <span class="ml-3"> <a class="text-decoration-none text-secondary font-size-10" href=""> Games</a></span>
+        <span class="ml-3"> <a class="text-decoration-none text-secondary font-size-10 " href=""> Squad</a></span>
+   </small>  
 </div>
-<hr>
+<hr class="m-0">
+<br>
 </div>
 </template>
+
+
 <style scoped>
-
-.search .form-control-search {
-    position: absolute;
-    margin-left: 500px;
-    z-index: 2;
-    display: block;
-    width: 2.3rem;
-    height: 2.3rem;
-    line-height: 2.3rem;
-    text-align: center;
-    pointer-events: none;
-    color: #aaa;
-    margin-top: 15px;
-    
+.radius{
+    border-radius: 2rem;
 }
-.search .form-control-x{
-    position: absolute;
-    margin-left: 485px; 
-    z-index: 2;
-    display: block;
-    width: 2.3rem;
-    height: 2.3rem;
-    line-height: 2.3rem;
-    text-align: center;
-    pointer-events: none;
-    color: #aaa;
-    margin-top: 15px;
+.search, .div-icons{
+    height: 27px;
 }
-#search-input{
-    border-radius: 3rem;
-    width: 550px;
-    height:30px;
-    margin-right: 450px;
-    margin-top: 20px;
-    
-   
+.icons{
+    color: rgb(192, 186, 186);  
 }
-@media only screen and (max-width: 1000px) {
-  #search-input {
-    
-    max-width: 400px;
-  }
-  .search .form-control-x, .search .form-control-search {
-     display: none;
-  }
-
-
+.navbar{
+    margin-top: -10px;
 }
 
 </style>
