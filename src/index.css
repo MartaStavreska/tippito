@@ -7,6 +7,9 @@ body{
 .blue-color{
     color: rgb(69, 69, 156);
 }
+.light-blue-color{
+    color: rgb(23, 159, 238);
+}
 .font-size-14{
     font-size: 14px;
 }

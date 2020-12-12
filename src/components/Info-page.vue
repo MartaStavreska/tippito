@@ -6,40 +6,49 @@
       <div>
           <h5 class="blue-color">FC Bayern Munchen (Games)</h5>
           <p class="text-muted font-size-12 m-0"><small>Updated on 28.10.2020 13:10</small></p>
-          <p class="m-0 font-size-12" >
+          <p class="m-0 pb-1 font-size-12" >
             <small>
-            League game against Atletico Madrid ended 4:0 for Bayern Munchen <br>
-            game referee was BLA BLA BLA and scores was Mueller...
+            Champions League game against <span class="light-blue-color">Atletico Madrid</span> ended 4:0 for Bayern Munchen 
+            game referee was BLA BLA BLA and scores was <span class="light-blue-color">Mueller</span>...
             </small> 
           </p>
-           <p class="m-0 font-size-12">
-            <small>
-              League game against Atletico Madrid ended 4:0 for Bayern Munchen
-            <br>
-            game referee was BLA BLA BLA and scores was Mueller...
+           <p class="m-0 pb-1 font-size-12">
+           <small>
+            Champions League game against <span class="light-blue-color">Atletico Madrid</span> ended 4:0 for Bayern Munchen 
+            game referee was BLA BLA BLA and scores was <span class="light-blue-color">Mueller</span>...
             </small> 
           </p>
-           <p class="m-0 font-size-12">
-            <small>
-              League game against Atletico Madrid ended 4:0 for Bayern Munchen
-            <br>
-            game referee was BLA BLA BLA and scores was Mueller...
+           <p class="m-0 pb-1 font-size-12">
+           <small>
+            Champions League game against <span class="light-blue-color">Atletico Madrid</span> ended 4:0 for Bayern Munchen 
+            game referee was BLA BLA BLA and scores was <span class="light-blue-color">Mueller</span>...
             </small> 
           </p>
-           <p class="m-0 font-size-12">
-            <small>
-              League game against Atletico Madrid ended 4:0 for Bayern Munchen
-            <br>
-            game referee was BLA BLA BLA and scores was Mueller...
+           <p class="m-0 pb-1 font-size-12">
+           <small>
+            Champions League game against <span class="light-blue-color">Atletico Madrid</span> ended 4:0 for Bayern Munchen 
+            game referee was BLA BLA BLA and scores was <span class="light-blue-color">Mueller</span>...
             </small> 
           </p>
-           <p class="m-0 font-size-12">
+           <p class="m-0 pb-1 font-size-12">
             <small>
-              League game against Atletico Madrid ended 4:0 for Bayern Munchen
-            <br>
-            game referee was BLA BLA BLA and scores was Mueller...
+            Champions League game against <span class="light-blue-color">Atletico Madrid</span> ended 4:0 for Bayern Munchen 
+            game referee was BLA BLA BLA and scores was <span class="light-blue-color">Mueller</span>...
             </small> 
           </p>
+          <p class="m-0 pb-1 font-size-12">
+            <small>
+            Champions League game against <span class="light-blue-color">Atletico Madrid</span> ended 4:0 for Bayern Munchen 
+            game referee was BLA BLA BLA and scores was <span class="light-blue-color">Mueller</span>...
+            </small> 
+          </p>
+          <p class="m-0 pb-1 font-size-12">
+            <small>
+            Champions League game against <span class="light-blue-color">Atletico Madrid</span> ended 4:0 for Bayern Munchen 
+            game referee was BLA BLA BLA and scores was <span class="light-blue-color">Mueller</span>...
+            </small> 
+          </p>
+          
       </div>
 
     </div>

@@ -18,8 +18,8 @@
           <h6 class="blue-color">FC Bayern Munchen (Squad)</h6>
           </a>
           <p class="m-0 font-size-10">
-             Latest Bayern Munchen Transfer Diego Costa, <br/>
-             Transfered from FC Juventus  on 28.09.2019
+             Latest Bayern Munchen Transfer <span class="light-blue-color">Diego Costa</span>, <br/>
+             Transfered from <span class="light-blue-color">FC Juventus</span> on 28.09.2019
              
           </p>
           <p class="text-muted font-size-8 mt-1">Updated on 28.10.2020 13:10</p>
@@ -29,9 +29,9 @@
           <a href="#" data-toggle="modal" data-target="#exampleModal">
           <h6 class="blue-color">FC Bayern Munchen (Games)</h6></a>
           <p class="m-0 font-size-10">
-                Champions league game against Atletico Madrid ended 4:0 for Bayern Munchen,
+                Champions league game against <span class="light-blue-color">Atletico Madrid</span> ended 4:0 for Bayern Munchen,
                 <br/>
-                game reference was...             
+                game reference was BLA BLA BLA and scores was <span class="light-blue-color">Mueller</span>...             
             </p>
           <p class="text-muted font-size-8 mt-1">Updated on 28.10.2020 13:10</p>
       </div>
@@ -51,9 +51,8 @@
           <h6 class="blue-color">FC Bayern Munchen (Squad)</h6>
           </a>
           <p class="m-0 font-size-10">
-             Latest Bayern Munchen Transfer Diego Costa, <br/>
-             Transfered from FC Juventus  on 28.09.2019
-             
+             Latest Bayern Munchen Transfer <span class="light-blue-color">Diego Costa</span>, <br/>
+             Transfered from <span class="light-blue-color">FC Juventus</span> on 28.09.2019          
           </p>
           <p class="text-muted font-size-8 mt-1">Updated on 28.10.2020 13:10</p>
       </div>
@@ -62,9 +61,9 @@
           <a href="#" data-toggle="modal" data-target="#exampleModal">
           <h6 class="blue-color">FC Bayern Munchen (Games)</h6></a>
           <p class="m-0 font-size-10">
-                Champions league game against Atletico Madrid ended 4:0 for Bayern Munchen,
+               Champions league game against <span class="light-blue-color">Atletico Madrid</span> ended 4:0 for Bayern Munchen,
                 <br/>
-                game reference was...             
+                game reference was BLA BLA BLA and scores was <span class="light-blue-color">Mueller</span>...            
             </p>
           <p class="text-muted font-size-10 mt-1">Updated on 28.10.2020 13:10</p>
       </div>
