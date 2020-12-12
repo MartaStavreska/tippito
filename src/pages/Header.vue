@@ -1,5 +1,4 @@
 <template>
-<<<<<<< HEAD
     <div class="row p10">
         <div class="col-1">
             <a class="navbar-brand" href="/">
@@ -30,52 +29,6 @@
         </div>
     </div>
 <hr>
-=======
-<div class="main">
-<nav class="navbar navbar-expand-lg navbar-light">
-  <a class="navbar-brand" href="#">
-    <img src="../../logotext.png" width="65" height="26" alt="logo" >
-  </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-   <div class="collapse navbar-collapse" id="navbarSupportedContent1">         
-      <div class="input-group col-md-5">
-            <input class="radius search form-control border-right-0 border font-size-10 pt-1 pb-1" type="text"  value="Bayern Munchen">
-            <span class="input-group-append">
-                <div class="radius  div-icons  input-group-text bg-transparent">
-                    <img src="../../download.png" height="11"  alt="">
-                    <span class="ml-1 mt-1 mr-1 icons">|</span>
-                    <img src="../../search.png" height="15"  alt="">   
-                      <i data-feather="circle"></i>  
-                </div>
-            </span>
-        </div>
-    <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Tippito</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Tippito Vip</a>
-            </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#">Login</a>
-            </li>          
-    </ul>
-    
-  </div>
-</nav>
-<div class="offset-1">
-    <small >
-        <span> <a class="text-decoration-none text-dark font-weight-bolder font-size-10 " href=""> All</a></span>
-        <span class="ml-3"> <a class="text-decoration-none text-secondary font-size-10 " href=""> Tips</a></span>
-        <span class="ml-3"> <a class="text-decoration-none text-secondary font-size-10" href=""> Games</a></span>
-        <span class="ml-3"> <a class="text-decoration-none text-secondary font-size-10 " href=""> Squad</a></span>
-   </small>  
-</div>
-<hr class="m-0">
-</div>
->>>>>>> 1bb415265e456707fb5397b6754d38f73a34819c
 </template>
 
 
@@ -86,7 +39,6 @@
 .search, .div-icons{
     height: 27px;
 }
-<<<<<<< HEAD
 #search-input{
     border-top-left-radius: 3rem;
     border-bottom-left-radius: 3rem;
@@ -101,13 +53,6 @@
     color:rgb(120, 123, 129);
     border-color:#ced4da;
     border-left:0;
-=======
-.icons{
-    color: rgb(192, 186, 186);  
-}
-.navbar{
-    margin-top: -10px;
->>>>>>> 1bb415265e456707fb5397b6754d38f73a34819c
 }
 
 </style>
