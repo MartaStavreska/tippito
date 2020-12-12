@@ -1,74 +1,93 @@
 <template>
 <div>
 <Header />
-<div class="main d-flex">
-   <div class="left-side col-md-6">
+<div class="main d-flex offset-1">
+   <div class="left-side mt-4">
       <div>
-          <a href="" data-toggle="modal" data-target="#exampleModal">
-              <h4 class="title" >Locomotiva-Moscow - FC Bayern Minchen (Tip)</h4>
+          <a href="#" data-toggle="modal" data-target="#exampleModal">
+              <h6 class="blue-color">Locomotiva-Moscow - FC Bayern Munchen (Tip)</h6>
             </a>
-           
-          <p>Latest public prediction given from Tippito user Full Name</p>
-          <p class="score"> <strong> 2 / 2 & 3 +</strong></p>
-          <p class="published"><small>Published on 28.10.2020 13:10</small></p>
+            <p class="m-0 font-size-10">Latest public prediction given from Tippito user Full Name</p>
+            <p class="m-0 font-size-12 font-weight-bold" > <strong>2 / 2 & 3 + </strong></p>
+            <p class="text-muted font-size-8" >Published on 28.10.2020 13:10</p>
+         
       </div>
+      
        <div>
-         <a href="" data-toggle="modal" data-target="#exampleModal">
-          <h4 class="title">FC Bayern Minchen (Squad)</h4>
+         <a href="#" data-toggle="modal" data-target="#exampleModal">
+          <h6 class="blue-color">FC Bayern Munchen (Squad)</h6>
           </a>
-          <p>Latest Bayern Minchen Transfer Diego Costa,
-              <br/>
-             Transfered from FC Juventus  on 28.09.2019
+          <p class="m-0 font-size-10">
+             Latest Bayern Munchen Transfer <span class="light-blue-color">Diego Costa</span>, <br/>
+             Transfered from <span class="light-blue-color">FC Juventus</span> on 28.09.2019
+             
           </p>
-          <p class="published"><small>Updated on 28.10.2020 13:10</small></p>
+          <p class="text-muted font-size-8 mt-1">Updated on 28.10.2020 13:10</p>
       </div>
+     
        <div>
-          <a href="" data-toggle="modal" data-target="#exampleModal">
-          <h4 class="title">FC Bayern Minchen (Games)</h4></a>
-          <p>Champions league game against Atletico Madrid ended 4:0 for Bayern Minchen,
-              <br/>
-             game reference was...
-          </p>
-          <p class="published"><small>Updated on 28.10.2020 13:10</small></p>
+          <a href="#" data-toggle="modal" data-target="#exampleModal">
+          <h6 class="blue-color">FC Bayern Munchen (Games)</h6></a>
+          <p class="m-0 font-size-10">
+                Champions league game against <span class="light-blue-color">Atletico Madrid</span> ended 4:0 for Bayern Munchen,
+                <br/>
+                game reference was BLA BLA BLA and scores was <span class="light-blue-color">Mueller</span>...             
+            </p>
+          <p class="text-muted font-size-8 mt-1">Updated on 28.10.2020 13:10</p>
       </div>
+     
+       <div>
+          <a href="#" data-toggle="modal" data-target="#exampleModal">
+              <h6 class="blue-color">Locomotiva-Moscow - FC Bayern Munchen (Tip)</h6>
+            </a>
+            <p class="m-0 font-size-10">Latest public prediction given from Tippito user Full Name</p>
+            <p class="m-0 font-size-12 font-weight-bold" > <strong>2 / 2 & 3 + </strong></p>
+            <p class="text-muted font-size-8">Published on 28.10.2020 13:10</p>
+         
+      </div>
+      
+       <div>
+         <a href="#" data-toggle="modal" data-target="#exampleModal">
+          <h6 class="blue-color">FC Bayern Munchen (Squad)</h6>
+          </a>
+          <p class="m-0 font-size-10">
+             Latest Bayern Munchen Transfer <span class="light-blue-color">Diego Costa</span>, <br/>
+             Transfered from <span class="light-blue-color">FC Juventus</span> on 28.09.2019          
+          </p>
+          <p class="text-muted font-size-8 mt-1">Updated on 28.10.2020 13:10</p>
+      </div>
+      
+       <div>
+          <a href="#" data-toggle="modal" data-target="#exampleModal">
+          <h6 class="blue-color">FC Bayern Munchen (Games)</h6></a>
+          <p class="m-0 font-size-10">
+               Champions league game against <span class="light-blue-color">Atletico Madrid</span> ended 4:0 for Bayern Munchen,
+                <br/>
+                game reference was BLA BLA BLA and scores was <span class="light-blue-color">Mueller</span>...            
+            </p>
+          <p class="text-muted font-size-10 mt-1">Updated on 28.10.2020 13:10</p>
+      </div>
+      
         <div>
-          <a href="" data-toggle="modal" data-target="#exampleModal">
-          <h4 class="title">Locomotiva-Moscow - FC Bayern Minchen (Tip)</h4></a>
-          <p>Latest public prediction given from Tippito user Full Name</p>
-          <p class="score"> <strong> 2 / 2 & 3 +</strong></p>
-          <p class="published"><small>Published on 28.10.2020 13:10</small></p>
-          
+          <a href="#" data-toggle="modal" data-target="#exampleModal">
+              <h6 class="blue-color">Locomotiva-Moscow - FC Bayern Munchen (Tip)</h6>
+            </a>
+            <p class="m-0 font-size-10">Latest public prediction given from Tippito user Full Name</p>
+            <p class="m-0 font-size-12 font-weight-bold" > <strong>2 / 2 & 3 + </strong></p>
+            <p class="text-muted font-size-8">Published on 28.10.2020 13:10</p>
+         
       </div>
-       <div>
-          <a href="" data-toggle="modal" data-target="#exampleModal">
-          <h4 class="title">FC Bayern Minchen (Squad)</h4></a>
-          <p>Latest Bayern Minchen Transfer Diego Costa,
-              <br/>
-             Transfered from FC Juventus  on 28.09.2019
-          </p>
-          <p class="published"><small>Updated on 28.10.2020 13:10</small></p>
-      </div>
-       <div>
-         <a href="" data-toggle="modal" data-target="#exampleModal">
-          <h4 class="title">FC Bayern Minchen (Games)</h4></a>
-          <p>Champions league game against Atletico Madrid ended 4:0 for Bayern Minchen,
-              <br/>
-             game reference was...
-          </p>
-          <p class="published"><small>Updated on 28.10.2020 13:10</small></p>
-      </div>
-        
-        
-
-
+      <br>
+      <br><br>
     </div>
-    <div class="right-side col-md-5">
-      <div class="card">
+    
+   <div class="right-side offset-1 col-md-6 mt-2">
+      <div class="card" >
         <div class="card-body">
-            <img src="../../bayern.png" alt="">
-            <h5 class="card-title title">(FCB)-FC Bayer Munchen</h5>
-            <p class="card-text">
-                Found on 1889<br>
+        <img src="../../bayern.png" class="mb-4"/>
+            <h6 class="card-title blue-color">(FCB)-FC Bayer Munchen</h6>
+            <p class="text-secondary m-0 font-weight-bold font-size-13" >  
+                Founded on 1889<br>
                 Germany<br> 
                 Addres & City <br>
                 Club Stadium, Club Surface, Club Capacity <br>
@@ -76,12 +95,13 @@
             </p>
         </div>
         </div>
-        <div class="desc card-text">
-           <p>Predict and WIN with Tippito</p> 
-           <p class="join">Join now</p>
-            <button class="btn btn-light mr-3 downoald-btn">Downoald IOS</button>
-            <button class="btn btn-light downoald-btn">Downoald Android</button>
-           <p class=" mt-2">know more about Tippito Vip</p>
+        
+        <div class="mt-3 ml-4 text-secondary">
+           <p class="m-0 font-weight-bold "><small><strong>Predict and WIN with Tippito</strong> </small> </p> 
+           <p class="m-0 font-size-10">Join now</p>
+            <button class="btn btn-light border border-secondary mr-3 p-2 btn1 font-size-13">Downoald iOS</button>
+            <button class="btn btn-light border border-secondary p-2 font-size-13">Downoald Android</button>
+           <p class="mt-2 font-size-10">know more about Tippito Vip </p>
         </div>
        
     </div>
@@ -104,53 +124,17 @@ export default {
     }
 }
 </script>
-<style scoped>
-.downoald-btn{
-    border:1px solid rgb(77, 74, 74);  
-    background: white;
-}
-.desc{
-    margin-left: 10px;
-    margin-top:20px;
-}
-.join{
-    margin-top: -20px;
-    font-size: 13px;
-}
+<style  scoped>
 .card{
-    border-radius: 5%;
-    border: 1px solid rgb(163, 158, 158);
+  border-radius:1rem; 
 }
-.card-text{
-   color:gray;
-   font-size: 15px;
-   font-weight: bold;
+.btn{
+   border-radius:0.8rem;
+   background: white;
+   height: 47px;  
 }
-.published{
-    color: gray;
-    margin-top: -20px;
-}
-.title{
-    color: rgb(53, 79, 194);
-}
-.main{
-    margin-left:100px;
-}
-.score{
-    font-size: 20px;
-    margin-top: -20px;
-}
-.spans a{
-    margin-left:20px;
-    font-size: 14px;
-    text-decoration: none;
-    color: gray;
-}
-.spans a:hover{
-    color:black;
-}
-#span-div{
-    margin-left: 100px;
+.btn1{
+  width: 150px;
 }
 
 </style>

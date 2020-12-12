@@ -1,41 +1,64 @@
 <template>
 <div>
   <Header/>
- <div class="main d-flex">
-   <div class="left-side col-md-5">
+ <div class="main d-flex d-flex offset-1 ">
+   <div class="left-side mt-3">
       <div>
-          <h3 class="title">FC Bayern Minchen (Games)</h3>
-          <p class="published"><small>Published on 28.10.2020 13:10</small></p>
-          <p class="info">Champions League game against Atletico Madrid ended 4:0 for Bayern Minchen
-          <br>
-            game referee was BLA BLA BLA and scores was Mueller...
+          <h5 class="blue-color">FC Bayern Munchen (Games)</h5>
+          <p class="text-muted font-size-12 m-0"><small>Updated on 28.10.2020 13:10</small></p>
+          <p class="m-0 pb-1 font-size-12" >
+            <small>
+            Champions League game against <span class="light-blue-color">Atletico Madrid</span> ended 4:0 for Bayern Munchen 
+            game referee was BLA BLA BLA and scores was <span class="light-blue-color">Mueller</span>...
+            </small> 
           </p>
-          <p class="info">Champions League game against Atletico Madrid ended 4:0 for Bayern Minchen
-          <br>
-            game referee was BLA BLA BLA and scores was Mueller...
+           <p class="m-0 pb-1 font-size-12">
+           <small>
+            Champions League game against <span class="light-blue-color">Atletico Madrid</span> ended 4:0 for Bayern Munchen 
+            game referee was BLA BLA BLA and scores was <span class="light-blue-color">Mueller</span>...
+            </small> 
           </p>
-          <p class="info">Champions League game against Atletico Madrid ended 4:0 for Bayern Minchen
-          <br>
-            game referee was BLA BLA BLA and scores was Mueller...
+           <p class="m-0 pb-1 font-size-12">
+           <small>
+            Champions League game against <span class="light-blue-color">Atletico Madrid</span> ended 4:0 for Bayern Munchen 
+            game referee was BLA BLA BLA and scores was <span class="light-blue-color">Mueller</span>...
+            </small> 
           </p>
-          <p class="info">Champions League game against Atletico Madrid ended 4:0 for Bayern Minchen
-          <br>
-            game referee was BLA BLA BLA and scores was Mueller...
+           <p class="m-0 pb-1 font-size-12">
+           <small>
+            Champions League game against <span class="light-blue-color">Atletico Madrid</span> ended 4:0 for Bayern Munchen 
+            game referee was BLA BLA BLA and scores was <span class="light-blue-color">Mueller</span>...
+            </small> 
           </p>
-          <p class="info">Champions League game against Atletico Madrid ended 4:0 for Bayern Minchen
-          <br>
-            game referee was BLA BLA BLA and scores was Mueller...
+           <p class="m-0 pb-1 font-size-12">
+            <small>
+            Champions League game against <span class="light-blue-color">Atletico Madrid</span> ended 4:0 for Bayern Munchen 
+            game referee was BLA BLA BLA and scores was <span class="light-blue-color">Mueller</span>...
+            </small> 
           </p>
-             
+          <p class="m-0 pb-1 font-size-12">
+            <small>
+            Champions League game against <span class="light-blue-color">Atletico Madrid</span> ended 4:0 for Bayern Munchen 
+            game referee was BLA BLA BLA and scores was <span class="light-blue-color">Mueller</span>...
+            </small> 
+          </p>
+          <p class="m-0 pb-1 font-size-12">
+            <small>
+            Champions League game against <span class="light-blue-color">Atletico Madrid</span> ended 4:0 for Bayern Munchen 
+            game referee was BLA BLA BLA and scores was <span class="light-blue-color">Mueller</span>...
+            </small> 
+          </p>
+          
       </div>
 
     </div>
-    <div class="right-side col-md-5">
-      <div class="card">
-        <div class="card-body">
-            <h5 class="card-title title">(FCB)-FC Bayer Munchen</h5>
-            <p class="card-text">
-                Found on 1889<br>
+     <div class="right-side offset-1 col-md-7 mt-3">
+       <div class="offset-1">
+      <div class="card h-3">
+        <div class="card-body">         
+            <h6 class="card-title blue-color">(FCB)-FC Bayer Munchen</h6>
+            <p class="text-secondary m-0 font-weight-bold font-size-13" >  
+                Founded on 1889<br>
                 Germany<br> 
                 Addres & City <br>
                 Club Stadium, Club Surface, Club Capacity <br>
@@ -43,14 +66,15 @@
             </p>
         </div>
         </div>
-        <div class="desc card-text">
-           <p>Predict and WIN with Tippito</p> 
-           <p class="join">Join now</p>
-            <button class="btn btn-light mr-3 downoald-btn">Downoald IOS</button>
-            <button class="btn btn-light downoald-btn">Downoald Android</button>
-           <p class="mt-2">know more about Tippito Vip</p>
+        
+        <div class="m-2  text-secondary">
+           <p class="m-0 font-weight-bold "><small><strong>Predict and WIN with Tippito</strong> </small> </p> 
+           <p class="m-0 font-size-10">Join now</p>
+            <button class="btn btn-light border border-secondary mr-3 p-2 btn1 font-size-13">Downoald iOS</button>
+            <button class="btn btn-light border border-secondary p-2 font-size-13">Downoald Android</button>
+           <p class="mt-2 font-size-10">know more about Tippito Vip </p>
         </div>
-       
+       </div>
     </div>
 </div>
   <Footer/>
@@ -63,49 +87,21 @@ import Footer from '../pages/Footer.vue'
 export default {
     components:{
         Header,
-        Footer
+        Footer,
     }
 }
 </script>
 <style scoped>
-.right-side{
-    margin-left:10px;
-}
-.info{
-    font-size: 10px;
-    margin-top: -10px;
-}
-.downoald-btn{
-    height:40px;
-    border: 1px solid gray;
-    background: white;
-}
-.desc{
-    
-    margin-top:20px;
-}
-.join{
-    margin-top: -20px;
-    font-size: 13px;
-}
 .card{
-    border-radius: 5%;
-    border: 1px solid rgb(194, 174, 174);
+  border-radius:1rem;
 }
-.card-text{
-   color:gray;
-   font-size: 15px;
-   font-weight: bold;
+.btn{
+   border-radius:0.8rem;
+   background: white;
+   height: 47px; 
 }
-.published{
-    color: gray;
-    
-}
-.title{
-    color: rgb(53, 79, 194);
-}
-.main{
-    margin-left:100px;
+.btn1{
+  width: 150px;
 }
 
 </style>
