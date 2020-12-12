@@ -2,7 +2,7 @@
 <div>
 <Header />
 <div class="main d-flex offset-1">
-   <div class="left-side">
+   <div class="left-side mt-4">
       <div>
           <a href="#" data-toggle="modal" data-target="#exampleModal">
               <h6 class="blue-color">Locomotiva-Moscow - FC Bayern Munchen (Tip)</h6>
@@ -82,7 +82,7 @@
       <br><br>
     </div>
     
-   <div class="right-side offset-1 col-md-6">
+   <div class="right-side offset-1 col-md-6 mt-2">
       <div class="card" >
         <div class="card-body">
         <img src="../../bayern.png" class="mb-4"/>
@@ -97,7 +97,7 @@
         </div>
         </div>
         
-        <div class="m-2 ml-4 text-secondary">
+        <div class="mt-3 ml-4 text-secondary">
            <p class="m-0 font-weight-bold "><small><strong>Predict and WIN with Tippito</strong> </small> </p> 
            <p class="m-0 font-size-10">Join now</p>
             <button class="btn btn-light border border-secondary mr-3 p-2 btn1 font-size-13">Downoald iOS</button>
@@ -136,9 +136,6 @@ export default {
 }
 .btn1{
   width: 150px;
-}
-.right-side{
-  margin-top: -15px;
 }
 
 </style>

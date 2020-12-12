@@ -2,7 +2,7 @@
 <div>
   <Header/>
  <div class="main d-flex d-flex offset-1 ">
-   <div class="left-side">
+   <div class="left-side mt-3">
       <div>
           <h5 class="blue-color">FC Bayern Munchen (Games)</h5>
           <p class="text-muted font-size-12 m-0"><small>Updated on 28.10.2020 13:10</small></p>
@@ -43,7 +43,7 @@
       </div>
 
     </div>
-     <div class="right-side offset-1 col-md-7">
+     <div class="right-side offset-1 col-md-7 mt-3">
        <div class="offset-1">
       <div class="card h-3">
         <div class="card-body">         
@@ -58,7 +58,7 @@
         </div>
         </div>
         
-        <div class="m-2 ml-4 text-secondary">
+        <div class="m-2  text-secondary">
            <p class="m-0 font-weight-bold "><small><strong>Predict and WIN with Tippito</strong> </small> </p> 
            <p class="m-0 font-size-10">Join now</p>
             <button class="btn btn-light border border-secondary mr-3 p-2 btn1 font-size-13">Downoald iOS</button>
@@ -94,7 +94,5 @@ export default {
 .btn1{
   width: 150px;
 }
-.right-side{
-  margin-top: -10px;
-}
+
 </style>

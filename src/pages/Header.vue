@@ -42,7 +42,6 @@
    </small>  
 </div>
 <hr class="m-0">
-<br>
 </div>
 </template>
 
