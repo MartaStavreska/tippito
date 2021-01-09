@@ -12,9 +12,7 @@
 body{
     font-family: 'Spartan', sans-serif;
 }
-.nav-link, .nav-text{
-   font-size: 12px;
-}
+
 .blue-color{
     color: rgb(69, 69, 156);
 }
@@ -36,6 +34,7 @@ body{
 .font-size-8{
     font-size: 8px;
 }
+
 input:focus, input:active{
     outline:0px !important;
     -webkit-appearance:none;
